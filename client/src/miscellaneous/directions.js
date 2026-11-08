@@ -27,7 +27,7 @@ function Map() {
 
     map.on('load', () =>{
       var directions = new MapboxDirections({
-        accessToken: 'pk.eyJ1IjoiY2hpbm1heXBiIiwiYSI6ImNsZmphOTVkMDBoM2ozdnBuY3k3c2J3MjcifQ.Znb2DKQoYHqreA6cYDdYDA',
+        accessToken: 'your-key',
         unit: 'metric',
   
         //api : 'https://api.mapbox.com/directions/v5/mapbox/driving/73.851341%2C18.457506%3B73.777826%2C18.660767?alternatives=true&language=en&overview=simplified',
